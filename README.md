@@ -9,10 +9,7 @@ other tools on the Pi.
 To-Do
 -----
 
-Make Shairport not run under the 'root' user. Right now this isn't possible
-because the LSB scripts don't accept --chuid that /sbin/start-stop-daemon
-does, so the init script needs to be rewritten to call that directly (and
-precreate the PID file).
+Turns out there are already init scripts in the shairport project: https://github.com/abrasive/shairport/tree/master/scripts/debian . Convert the init scripts here to use those instead.
 
 License and Author
 ------------------
