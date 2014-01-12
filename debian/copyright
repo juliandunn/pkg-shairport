@@ -51,7 +51,7 @@ License: MIT
 
 Files: getopt_long.?
 Copyright: 1987, 1993, 1994 The Regents of the University of California.  All rights reserved.
-Copyright: 2003 PostgreSQL Global Development Group
+           2003 PostgreSQL Global Development Group
 License: BSD
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
