@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_clean:
+	make clean
+	rm -f config.h config.mk

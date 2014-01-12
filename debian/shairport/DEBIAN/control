@@ -1,0 +1,13 @@
+Package: shairport
+Version: 1.0.0-1
+Architecture: armhf
+Maintainer: Julian C. Dunn <jdunn@aquezada.com>
+Installed-Size: 105
+Depends: libasound2 (>= 1.0.16), libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.13-28), libssl1.0.0 (>= 1.0.0), avahi-daemon
+Section: sound
+Priority: optional
+Description: Airport emulator for Unix/Linux.
+ This program emulates an AirPort Express for the purpose of streaming music
+ from iTunes and compatible iPods and iPhones. It implements a server for the
+ Apple RAOP protocol. ShairPort does not support AirPlay v2 (video and photo
+ streaming).

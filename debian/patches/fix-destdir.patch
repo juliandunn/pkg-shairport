@@ -1,0 +1,14 @@
+Move destdir
+Index: shairport-1.0.0/Makefile
+===================================================================
+--- shairport-1.0.0.orig/Makefile	2013-11-30 00:38:30.000000000 +0000
++++ shairport-1.0.0/Makefile	2014-01-11 04:24:52.012868132 +0000
+@@ -8,7 +8,7 @@
+ CFLAGS ?= -O2
+ -include config.mk
+ 
+-PREFIX ?= /usr/local
++PREFIX ?= $(DESTDIR)/usr
+ 
+ 
+ SRCS := shairport.c daemon.c rtsp.c mdns.c mdns_external.c mdns_tinysvcmdns.c common.c rtp.c player.c alac.c audio.c audio_dummy.c audio_pipe.c tinysvcmdns.c

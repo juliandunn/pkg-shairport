@@ -1,0 +1,4 @@
+# Settings for Shairport
+#SHAIRPORT_NAME="RaspberryPi"
+#
+#SHAIRPORT_OPTS="-d -P /var/run/shairport.pid"

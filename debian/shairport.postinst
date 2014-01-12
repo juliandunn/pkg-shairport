@@ -1,0 +1,15 @@
+# Not used right now, because LSB's start-stop-daemon doesn't know how
+# to start daemons as a different user.
+
+case "$1" in
+  configure)
+
+        if ! getent passwd shairport > /dev/null ; then
+          echo 'Adding system-user for shairport' 1>&2
+          adduser --system --group --quiet \
+            --no-create-home --disabled-login --force-badname shairport
+        fi
+
+        ;;
+esac
+#DEBHELPER#
