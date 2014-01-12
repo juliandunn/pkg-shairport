@@ -6,11 +6,6 @@ So that it's easy to get onto a Raspberry Pi (which runs Debian)
 without too much pain and suffering or having to install a compiler &
 other tools on the Pi.
 
-To-Do
------
-
-Turns out there are already init scripts in the shairport project: https://github.com/abrasive/shairport/tree/master/scripts/debian . Convert the init scripts here to use those instead.
-
 License and Author
 ------------------
 
