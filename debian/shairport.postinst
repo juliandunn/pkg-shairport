@@ -6,8 +6,9 @@ case "$1" in
 
         if ! getent passwd shairport > /dev/null ; then
           echo 'Adding system-user for shairport' 1>&2
-          adduser --system --group --quiet \
-            --no-create-home --disabled-login --force-badname shairport
+          adduser --system --quiet --no-create-home --disabled-login shairport
+          echo 'Adding shairport to audio group' 1>&2
+          adduser --quiet shairport audio
         fi
 
         ;;
