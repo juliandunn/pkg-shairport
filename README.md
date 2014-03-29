@@ -6,6 +6,10 @@ So that it's easy to get onto a Raspberry Pi (which runs Debian)
 without too much pain and suffering or having to install a compiler &
 other tools on the Pi.
 
+If you just want the .deb package for your Pi, here it is:
+
+https://urbandecoder-deb.s3.amazonaws.com/shbirport_1.0.0-1_armhf.deb
+
 License and Author
 ------------------
 
