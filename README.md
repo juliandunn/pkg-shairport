@@ -8,6 +8,10 @@ other tools on the Pi.
 
 If you just want the .deb package for your Pi, here it is:
 
+https://urbandecoder-deb.s3.amazonaws.com/shairport_1.1.1-1_armhf.deb
+
+The older .deb is here:
+
 https://urbandecoder-deb.s3.amazonaws.com/shairport_1.0.0-1_armhf.deb
 
 License and Author
